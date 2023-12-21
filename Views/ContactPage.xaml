@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Contacts.Maui.Views.ContactPage"
+             Title="ContactPage">
+
+
+
+    <ListView
+              x:Name="listContacts"
+              BackgroundColor="Transparent"
+              SeparatorColor="Gray"
+              RowHeight="70"
+              ItemSelected="listContacts_ItemSelected"
+        ItemTapped="listContacts_ItemSelected"
+              >
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <TextCell Text="{Binding Name}" Detail="{Binding Email}">
+                </TextCell>
+            </DataTemplate>
+
+        </ListView.ItemTemplate>
+
+
+    </ListView>
+
+    
+    
+</ContentPage>
