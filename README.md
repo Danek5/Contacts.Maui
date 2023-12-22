@@ -12,3 +12,5 @@ basic mobile app for management contacts
 - Creating Reusable control
 - Dependency Injection
 - Clean Architecture
+  <br>
+![maui3](https://github.com/Danek5/Contacts.Maui/assets/94629551/4fbf68c6-cfcc-4007-b096-70854fcca628)
