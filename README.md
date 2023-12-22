@@ -1,5 +1,5 @@
 # Mobile Contacts app in .NET 7 + MAUI
-basic mobile app for management contacts
+mobile app for management contacts
 <br>
 - .Net MAUI Project Structure
 - URL based navigation
