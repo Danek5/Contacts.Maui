@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using CommunityToolkit.Maui;
+using Microsoft.Extensions.Logging;
 
 namespace Contacts.Maui
 {
@@ -15,6 +16,7 @@ namespace Contacts.Maui
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
+            builder.UseMauiApp<App>().UseMauiCommunityToolkit();
 #if DEBUG
     		builder.Logging.AddDebug();
 #endif
